@@ -1,7 +1,9 @@
+# import pathlib
+
 # 6 tema
 # 2.
 # Liepkite vartotojui suvesti savo amžių. Patikrinkite ar amžius yra didesnis arba lygus 18-ai, jei taip -išveskite "jūs galite balsuoti".
-import pathlib
+
 
 # print("suveskite savo amziu")
 # amzius = int(input())
@@ -73,9 +75,9 @@ import pathlib
 # 3.
 # Ar treèias skaièius didesnis už pirm¹?
 
-sk1 = 6
-sk2 = 8
-sk3 = 11
+# sk1 = 6
+# sk2 = 8
+# sk3 = 11
 
 # if sk1 > sk2:
 #     print("pirmas skaicius didesnis uz antraji")
@@ -160,7 +162,7 @@ sk3 = 11
 # else:
 #     print("skacius nesidalina is 7")
 
-
+#
 # 9.
 # Susikurkite kintam¹ji, kuriame nurodytumete keli¹ iki norimo failo.
 # Patikrinkite ar šis failas yra .py tipo, jei taip išveskite vien¹ tekst¹, jei ne -kit¹.
@@ -228,5 +230,92 @@ sk3 = 11
 # else:
 #     print("ERROR 404")
 
-# 12.
-# Leiskite vartotojui suvesti tris skaičius. Suraskite kuris iš šių skaičių yra didžiausias.
+# # 12.
+# # Leiskite vartotojui suvesti tris skaičius. Suraskite kuris iš šių skaičių yra didžiausias.
+# print("suveskite tris skaicius")
+# print("pirmas skaicius")
+# sk1 = int(input())
+# print("antras skaicius")
+# sk2 = int(input())
+# print("trecias skaicius")
+# sk3 = int(input())
+# if sk1 > sk2 and sk1 > sk3:
+#     print("1 skaicius didziausias")
+# elif sk2 > sk1 and sk2 > sk3:
+#     print("2 skaicius didziausias")
+# elif sk3 > sk1 and sk3 > sk2:
+#     print("3 skaicius didziausias")
+# elif sk1 == sk2 and sk2 == sk3:
+#     print("skaiciai lygus")
+
+# 13.
+# Leiskite vartotojui suvesti tris skaièius. Suraskite kuris iš šiu skaièiu yra mažiausias.
+# print("suveskite tris skaicius")
+# print("pirmas skaicius")
+# sk1 = int(input())
+# print("antras skaicius")
+# sk2 = int(input())
+# print("trecias skaicius")
+# sk3 = int(input())
+# if sk1 < sk2 and sk1 < sk3:
+#     print("1 skaicius maziausias")
+# elif sk2 < sk1 and sk2 < sk3:
+#     print("2 skaicius maziausias")
+# elif sk3 < sk1 and sk3 < sk2:
+#     print("3 skaicius maziausias")
+# elif sk1 == sk2 and sk2 == sk3:
+#     print("skaiciai lygus")
+
+
+# 14.
+# Susikurkite triju egzaminu rezultatu kintamuosius arba paprašykite, kad vartotojas suvestu šias reikšmes. Suraskite pažymiu vidurki.
+# Atlikite šiuos patikrinimus:
+# 1.
+# ar gautas vidurkis yra [8-10];
+# 2.
+# ar gautas vidurkis yra [5-8);
+# 3.
+# ar gautas vidurkis yra < 5.
+
+
+# print("parasykite triju egzaminu gautus balus")
+# print("pirmas pazymis")
+# sk1 = float(input())
+# print("antras pazymis")
+# sk2 = float(input())
+# print("trecias pazymis")
+# sk3 = float(input())
+# vidurkis = (sk1 + sk2 + sk3) / 3
+# print(f"Egzaminu vidurkis: {vidurkis}")
+# if 8 <= vidurkis <= 10:
+#     print("vidurkis yra intervale [8-10]")
+# elif 5 <= vidurkis < 8:
+#     print("vidurkis yra intervale [5-8)")
+# elif vidurkis < 5:
+#     print("vidurkis yra mazesnis nei 5")
+# else:
+#     print("Nieko")
+
+# 15.
+# Susikurkite du skaičius. Patikrinkite (naudojant 4 atskirus if’us):
+# 1.
+# ar pirmas skaičius yra didesnis už antrąjį arba yra lygus 0;
+# 2.
+# ar antras skaičius yra didesnis už pirmąjį arba yra lygus 5;
+# 3.
+# ar pirmas skaičius yra didesnis už antrąjį ir yra lygus 20;
+# 4.
+# ar antras skaičius yra didesnis už pirmąjį ir yra mažesnis už 100;
+
+# print(f"sukurti du skaiciai")
+# sk1 = 4
+# sk2 = 100
+# print(f"sukurti du skaiciai {sk1} ir {sk2}")
+# if sk1 > sk2 or sk1 == 0:
+#     print("1 salyga pirmas skaicius yra didesnis uz antraji arba lygus 0")
+# if sk2 > sk1 or sk2 == 5:
+#     print(" 2 salyga antras skaicus yra didesnis uz pirmaji arba lygus 5")
+# if sk1 > sk2 and sk1 == 20:
+#         print("3 salyga pirmas skaicius yra didesnis uz antraji ir yra lygus 20")
+# if sk2 > sk1 and sk2 < 100:
+#     print("4 salyga antras skaicius yra didesnis uz pirmaji ir yra mazesnis uz 100")
